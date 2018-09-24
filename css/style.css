@@ -1,0 +1,68 @@
+header {
+    background: black;
+    margin-bottom: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    line-height: 70px;
+}
+
+ul {
+    display: inline;
+}
+
+li {
+    color: grey;
+    display: inline-block;
+    height: 70px;
+    width: 190px;
+}
+
+main {
+    margin: auto;
+    width: 1000px;
+}
+
+section img {
+    float: left;
+    margin: 15px;
+}
+
+h2 {
+    float: left;
+    font-size: 24px;
+     margin: 15px 0px 5px 15px;
+}
+
+p {
+    display: inline-block;
+    margin: 0px 0px 0px 15px;
+    height: 320px;
+    width: 450px;
+    overflow: scroll;
+}
+
+button {
+    margin: 10px 0px 15px 15px;
+    height: 40px;
+    width: 200px;
+}
+
+button:hover {
+    background: black;
+    border: black;
+    color: white;
+    transition-delay: 100ms;    
+}
+
+footer {
+    background: black;
+    margin: 50px 0px 0px 0px;
+    height: 100px;
+    width: 100%
+}
