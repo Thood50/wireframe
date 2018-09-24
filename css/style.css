@@ -1,11 +1,15 @@
 header {
-    background: black;
+    display: flex;
+    background: rgb(58, 58, 58);
     margin-bottom: 15px;
     height: 100%;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 nav {
+    display: inline;
     position: relative;
     top: 10px;
     text-align: center;
@@ -14,6 +18,7 @@ nav {
 
 ul {
     display: inline;
+    position: relative;
 }
 
 li {
@@ -29,6 +34,7 @@ main {
 }
 
 section img {
+    background: black;
     float: left;
     margin: 15px;
 }
@@ -54,14 +60,14 @@ button {
 }
 
 button:hover {
-    background: black;
+    background: rgb(58, 58, 58);
     border: black;
     color: white;
     transition-delay: 100ms;    
 }
 
 footer {
-    background: black;
+    background: rgb(58, 58, 58);
     margin: 50px 0px 0px 0px;
     height: 100px;
     width: 100%
